@@ -13,7 +13,7 @@ const Modal = ({ toggleModal, largeImage }) => {
   }, [toggleModal]);
 
   const handleBackdropClick = e => {
-    e.target === e.currentTarget && this.props.toggleModal();
+    e.target === e.currentTarget && toggleModal();
   };
 
   return (
